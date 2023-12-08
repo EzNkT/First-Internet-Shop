@@ -1,0 +1,33 @@
+
+<header>
+  <div class="container-fluid">
+    <nav class="navbar goth-font">
+      <ul class="nav ">
+        <li class="">
+          <a class=" btn btn-info me-2" role="button" href="{% url 'homepage:index' %}">Войти/Зарегестрироваться</a>
+        </li>
+        <li class="indent-left">
+          <a class=" btn btn-outline-dark me-2" role="button" href="{% url 'catalog:make_offer' %}">Избранное</a>
+        </li>
+        <li class="indent-left">
+          <a class=" btn btn-outline-dark me-2" role="button" href="{% url 'catalog:make_offer' %}">Корзина</a>
+        </li>
+      </ul>
+      <ul class="nav position-absolute end-0">
+        <li class="indent-right">
+          <div class="dropdown">
+            <button class=" btn btn-outline-dark me-2 dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Навигация</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="{% url 'homepage:index' %}">Главная</a></li>
+              <li><a class="dropdown-item" href="{% url 'catalog:main_catalog' %}">Каталог</a></li>
+              <li><a class="dropdown-item" href="{% url 'catalog:make_offer' %}">Создать предложение</a></li>
+            </ul>
+          </div>
+        </li>
+        <li classs="indent-right">
+          <a class=" btn btn-outline-dark me-2" role="button" href="{% url 'catalog:make_offer' %}">Адреса</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

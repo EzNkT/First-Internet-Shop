@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% load django_bootstrap5 %}
+
+{% block title %}Создание Обьявления{% endblock %}
+
+  {% block main %}
+  <h1 class="text-center col">Разместить обьявление</h1>
+    <div class="position-absolute top-50 start-50 translate-middle col">
+          <form method="post" class=" goth-font" enctype="multipart/form-data">
+            {% csrf_token %}
+            {% bootstrap_form form %}
+            <input class="btn btn-success" type="submit"  value="Опубликовать">
+          </form>
+    </div>
+  {% endblock %}

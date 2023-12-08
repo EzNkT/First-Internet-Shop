@@ -1,0 +1,51 @@
+@import url(https://db.onlinewebfonts.com/c/07a38bbad54db72a40b406bed1c72f53?family=Gotham+Pro+Regular);
+@import url('https://fonts.cdnfonts.com/css/tt-travels-trl');
+
+body {
+    background-color: #F4F4F4;
+
+}
+
+header {
+    margin: 60px;
+}
+
+.indent-left {
+    margin-left: 14px;
+}
+
+.indent-right {
+    margin-right: 14px;
+}
+
+.btn-custom{
+    color: #000;
+    background-color: #26A47E;
+    border-color: #26A47E;
+}
+
+.got-font{
+    font-family: "Gotham Pro Regular";
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-c {
+    border-radius: 29px;
+    background-color: #000;
+  }
+
+.cs-color{
+    background-color: #26A47E;
+}
+
+.vape-title-font{
+    font-family: "TT Travels Trl";
+    font-weight: bold;
+    font-size: 100px;
+}
